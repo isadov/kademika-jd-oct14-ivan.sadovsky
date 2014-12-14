@@ -1,16 +1,22 @@
 package TanksOOP;
 
-public class Tiger extends Tank {
+import java.awt.Color;
+
+public class Tiger extends AbstractTank {
 
 	private int armor;
 	
 	public Tiger(ActionField af, BattleField bf) {
 		super(af, bf);
 		armor = 1;
+		tankColor = new Color(255, 0, 0);
+		towerColor = new Color(0, 255, 0);
 	}
 	
 	public Tiger(ActionField af, BattleField bf, int x, int y, Boolean tankType, Direction direction){
 		super(af, bf, x, y, tankType, direction);
+		tankColor = new Color(255, 0, 0);
+		towerColor = new Color(0, 255, 0);
 	}
 	
 	public void destroy() {
