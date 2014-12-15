@@ -11,13 +11,7 @@ public abstract class Ingredients {
 	protected String teaBergamot;
 
 	public Ingredients() {
-		this.water = water;
-		this.coffee = coffee;
-		this.sugar = sugar;
-		this.teaBlack = teaBlack;
-		this.teaGreen = teaGreen;
-		this.milk = milk;
-		this.teaBergamot = teaBergamot;
+	
 	}
 
 	public String getWater() {
