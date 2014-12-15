@@ -1,6 +1,9 @@
 package TanksOOP;
 
-public class Bullet {
+import java.awt.Color;
+import java.awt.Graphics;
+
+public class Bullet implements Drawable, Destroyable{
 
 	private int speed = 5;
 	
@@ -59,7 +62,11 @@ public class Bullet {
 	public void setBulletOwner(boolean bulletOwner) {
 		this.bulletOwner = bulletOwner;
 	}
-	
-	
 
+	@Override
+	public void draw(Graphics g) {
+		g.setColor(new Color(255, 255, 0));
+		g.fillRect(this.x, this.y, 14, 14);
+		
+	}
 }

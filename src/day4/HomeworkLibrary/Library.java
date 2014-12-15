@@ -1,14 +1,13 @@
 package day4.HomeworkLibrary;
 
 public class Library {
-	
+
 	private String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 	private Book[][] booksByName = new Book[alphabet.length()][];
 	private Book[][] booksByAuthor = new Book[alphabet.length()][];
 	private Book[][] booksByCategory = new Book[6][];
-	
-	
+
 	public Library() throws Exception {
 
 		booksByName = new Book[26][];
@@ -19,9 +18,7 @@ public class Library {
 
 		booksByCategory = new Book[26][];
 		fillDictionary(booksByCategory);
-		
-		createBooks();
-		
+
 	}
 
 	public void findBookByName(Book[][] bookArray, String bookName)
@@ -152,13 +149,6 @@ public class Library {
 				}
 			}
 		}
-	}
-
-	private void createBooks() throws Exception {
-		
-		AllBooks books = new AllBooks();
-		books.addingBooks();
-		
 	}
 
 	public Book[][] getLibraryByAuthorName() {
