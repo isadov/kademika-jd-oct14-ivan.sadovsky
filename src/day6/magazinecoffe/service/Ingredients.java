@@ -1,4 +1,4 @@
-package day6.magazinecoffe;
+package day6.magazinecoffe.service;
 
 public abstract class Ingredients {
 
@@ -11,7 +11,7 @@ public abstract class Ingredients {
 	protected String teaBergamot;
 
 	public Ingredients() {
-	
+
 	}
 
 	public String getWater() {
@@ -69,6 +69,4 @@ public abstract class Ingredients {
 	public void setTeaBergamot(String teaBergamot) {
 		this.teaBergamot = teaBergamot;
 	}
-	
-	
 }

@@ -1,14 +1,16 @@
 package day6.magazinecoffe;
 
+import day6.magazinecoffe.service.Menu;
+import day6.magazinecoffe.service.Prices;
+
 public class Demo {
 
 	public static void main(String[] args) {
-		Recipes recipes = new Recipes();
 		Menu menu = new Menu();
+		Prices prices = new Prices();
 		
-//		recipes.allRecipes();
-		recipes.recipeAmericano(13);
-		
+//		menu.recipeAmericano();
+		menu.showMenu();
 	}
 
 }

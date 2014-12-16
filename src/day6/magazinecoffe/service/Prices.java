@@ -1,4 +1,4 @@
-package day6.magazinecoffe;
+package day6.magazinecoffe.service;
 
 public class Prices {
 	private double americanoPrice;
@@ -19,7 +19,7 @@ public class Prices {
 	}
 
 	public void setAmericanoPrice(double americanoPrice) {
-		this.americanoPrice = 13;
+		this.americanoPrice = americanoPrice;
 	}
 
 	public double getCapuchinoPrice() {
@@ -77,6 +77,6 @@ public class Prices {
 	public void setTeaWithBergamotPrice(double teaWithBergamotPrice) {
 		this.teaWithBergamotPrice = teaWithBergamotPrice;
 	}
-	
+
 	
 }
