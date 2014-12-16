@@ -1,6 +1,11 @@
-package TanksOOP;
+package TanksOOP.tanks;
 
 import java.awt.Color;
+
+import TanksOOP.service.AbstractTank;
+import TanksOOP.service.ActionField;
+import TanksOOP.service.BattleField;
+import TanksOOP.service.Direction;
 
 public class BT7 extends AbstractTank {
 

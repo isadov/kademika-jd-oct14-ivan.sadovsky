@@ -1,4 +1,4 @@
-package TanksOOP;
+package TanksOOP.service;
 
 public enum Direction {
 

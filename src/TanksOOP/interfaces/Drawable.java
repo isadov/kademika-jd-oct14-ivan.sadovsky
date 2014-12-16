@@ -1,4 +1,4 @@
-package TanksOOP;
+package TanksOOP.interfaces;
 
 import java.awt.Graphics;
 

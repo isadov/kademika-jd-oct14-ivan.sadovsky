@@ -1,4 +1,4 @@
-package TanksOOP;
+package TanksOOP.service;
 
 import java.awt.Color;
 import java.awt.Graphics;

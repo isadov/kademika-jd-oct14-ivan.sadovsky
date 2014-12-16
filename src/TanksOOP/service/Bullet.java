@@ -1,7 +1,10 @@
-package TanksOOP;
+package TanksOOP.service;
 
 import java.awt.Color;
 import java.awt.Graphics;
+
+import TanksOOP.interfaces.Destroyable;
+import TanksOOP.interfaces.Drawable;
 
 public class Bullet implements Drawable, Destroyable{
 

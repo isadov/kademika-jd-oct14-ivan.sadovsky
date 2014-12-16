@@ -1,4 +1,4 @@
-package TanksOOP;
+package TanksOOP.service;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -8,6 +8,9 @@ import java.util.Random;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.WindowConstants;
+
+import TanksOOP.tanks.T34;
+import TanksOOP.tanks.Tiger;
 
 public class ActionField extends JPanel {
 

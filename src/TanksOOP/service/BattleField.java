@@ -1,8 +1,11 @@
-package TanksOOP;
+package TanksOOP.service;
 
+import java.awt.Graphics;
 import java.util.Random;
 
-public class BattleField {
+import TanksOOP.interfaces.Drawable;
+
+public class BattleField implements Drawable {
 
 	private int bfWidth = 576;
 	private int bfHeight = 576;
@@ -63,5 +66,15 @@ public class BattleField {
 			aggressorLocation = "64_64";
 		}
 		return aggressorLocation;
+	}
+
+	@Override
+	public void draw(Graphics g) {
+		for (int j = 0; j < battleField.length; j++) {
+			for (int k = 0; k < battleField.length; k++) {
+				battleField[j][k].draw(g);
+
+			}
+		}
 	}
 }
