@@ -4,7 +4,7 @@ public class returns {
 
 	public static void main(String[] args) {
 		catcher();
-		System.out.println("done");
+		System.err.println("done");
 	}
 
 	public static void catcher() {
