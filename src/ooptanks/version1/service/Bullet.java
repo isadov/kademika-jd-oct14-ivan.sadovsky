@@ -1,10 +1,10 @@
-package ooptanks.service;
+package ooptanks.version1.service;
 
 import java.awt.Color;
 import java.awt.Graphics;
 
-import ooptanks.intefaces.Destroyable;
-import ooptanks.intefaces.Drawable;
+import ooptanks.version1.interfaces.Destroyable;
+import ooptanks.version1.interfaces.Drawable;
 
 public class Bullet implements Drawable, Destroyable{
 

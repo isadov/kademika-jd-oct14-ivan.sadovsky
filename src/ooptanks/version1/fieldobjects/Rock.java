@@ -1,4 +1,4 @@
-package ooptanks.fieldobjects;
+package ooptanks.version1.fieldobjects;
 
 import java.awt.Color;
 

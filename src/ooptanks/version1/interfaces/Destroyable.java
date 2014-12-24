@@ -1,4 +1,4 @@
-package ooptanks.intefaces;
+package ooptanks.version1.interfaces;
 
 import java.awt.Graphics;
 

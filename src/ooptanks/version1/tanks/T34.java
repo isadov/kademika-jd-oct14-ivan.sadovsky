@@ -1,10 +1,10 @@
-package ooptanks.tanks;
+package ooptanks.version1.tanks;
 
 import java.awt.Color;
 
-import ooptanks.service.ActionField;
-import ooptanks.service.BattleField;
-import ooptanks.service.Direction;
+import ooptanks.version1.service.ActionField;
+import ooptanks.version1.service.BattleField;
+import ooptanks.version1.service.Direction;
 
 public class T34 extends AbstractTank {
 	

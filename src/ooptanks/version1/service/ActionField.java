@@ -1,4 +1,4 @@
-package ooptanks.service;
+package ooptanks.version1.service;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -9,9 +9,9 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.WindowConstants;
 
-import ooptanks.tanks.AbstractTank;
-import ooptanks.tanks.T34;
-import ooptanks.tanks.Tiger;
+import ooptanks.version1.tanks.AbstractTank;
+import ooptanks.version1.tanks.T34;
+import ooptanks.version1.tanks.Tiger;
 
 public class ActionField extends JPanel {
 

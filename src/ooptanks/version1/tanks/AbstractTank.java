@@ -1,13 +1,13 @@
-package ooptanks.tanks;
+package ooptanks.version1.tanks;
 
 import java.awt.Color;
 import java.awt.Graphics;
 import java.util.Random;
 
-import ooptanks.service.ActionField;
-import ooptanks.service.BattleField;
-import ooptanks.service.Bullet;
-import ooptanks.service.Direction;
+import ooptanks.version1.service.ActionField;
+import ooptanks.version1.service.BattleField;
+import ooptanks.version1.service.Bullet;
+import ooptanks.version1.service.Direction;
 
 public abstract class AbstractTank {
 
