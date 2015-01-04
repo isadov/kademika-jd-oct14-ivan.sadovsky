@@ -6,11 +6,11 @@ public class Launcher {
 		
 		ServiceClass service = new ServiceClass();
 		
-		service.sellPrices();
-		service.leftOnStorage();
-		service.oneDay();
+//		service.sellPrices();
+//		service.leftOnStorage();
+//		service.oneDay();
 		service.sevenDays();
-		service.showAllInfo();
+//		service.showAllInfo();
 		
 	}
 	
