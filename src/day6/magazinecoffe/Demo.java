@@ -9,8 +9,10 @@ public class Demo {
 		Menu menu = new Menu();
 		Prices prices = new Prices();
 		
-//		menu.recipeAmericano();
+		//menu.recipeAmericano();
 		menu.showMenu();
+	//	menu.recipeCapuchino();
+		
 	}
 
 }
