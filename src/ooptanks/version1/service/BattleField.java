@@ -8,7 +8,7 @@ import ooptanks.version1.fieldobjects.Eagle;
 import ooptanks.version1.fieldobjects.Rock;
 import ooptanks.version1.fieldobjects.Water;
 import ooptanks.version1.interfaces.Drawable;
-import ooptanks.version2.tanks.bf.Blank;
+import ooptanks.version2.tanks.objectsfield.Blank;
 
 public class BattleField implements Drawable {
 	
