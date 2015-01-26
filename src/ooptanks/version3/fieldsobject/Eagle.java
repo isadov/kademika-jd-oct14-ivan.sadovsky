@@ -13,7 +13,7 @@ public class Eagle extends BFObject implements Destroyable{
 	public Eagle(){
 		this.color = new Color(255,255,255);
 		try {
-			this.image = ImageIO.read(new File("C:\\Users\\Skadufex\\Desktop\\tanks\\Eagle.jpg"));
+			this.image = ImageIO.read(new File("Eagle.jpg"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

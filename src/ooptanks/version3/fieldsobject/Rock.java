@@ -15,7 +15,7 @@ public class Rock extends BFObject implements Destroyable{
 	public Rock(){
 		this.color = new Color(128,128,128);
 		try {
-			this.image = ImageIO.read(new File("C:\\Users\\Skadufex\\Desktop\\tanks\\Stones.jpg"));
+			this.image = ImageIO.read(new File("Stones.jpg"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

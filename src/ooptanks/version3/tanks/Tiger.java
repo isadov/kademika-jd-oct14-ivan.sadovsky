@@ -41,28 +41,28 @@ public class Tiger extends AbstractTank {
 
 		try {
 			this.imagesOfTank.put(Direction.UP, ImageIO.read(new File(
-					"C:\\Users\\Skadufex\\Desktop\\tanks\\TankAttTop.png")));
+					"TankAttTop.png")));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		try {
 			this.imagesOfTank.put(Direction.RIGHT, ImageIO.read(new File(
-					"C:\\Users\\Skadufex\\Desktop\\tanks\\TankAttRight.png")));
+					"TankAttRight.png")));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		try {
 			this.imagesOfTank.put(Direction.DOWN, ImageIO.read(new File(
-					"C:\\Users\\Skadufex\\Desktop\\tanks\\TankAttDown.png")));
+					"TankAttDown.png")));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		try {
 			this.imagesOfTank.put(Direction.LEFT, ImageIO.read(new File(
-					"C:\\Users\\Skadufex\\Desktop\\tanks\\TankAttLeft.png")));
+					"TankAttLeft.png")));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

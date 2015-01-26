@@ -11,7 +11,7 @@ public class Water extends BFObject{
 	 public Water(){
 		 this.color = new Color(65,105,225);
 		 try {
-				this.image = ImageIO.read(new File("C:\\Users\\Skadufex\\Desktop\\tanks\\Water.png"));
+				this.image = ImageIO.read(new File("Water.png"));
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

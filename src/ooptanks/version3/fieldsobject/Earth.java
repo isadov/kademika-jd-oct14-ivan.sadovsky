@@ -12,7 +12,7 @@ public class Earth extends BFObject {
 	public Earth() {
 		this.color = new Color(102, 255, 102);
 		try {
-			this.image = ImageIO.read(new File("C:\\Users\\Skadufex\\Desktop\\tanks\\GreenGrass.jpg"));
+			this.image = ImageIO.read(new File("GreenGrass.jpg"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -24,7 +24,7 @@ public class Earth extends BFObject {
 		this.x = x;
 		this.y = y;
 		try {
-			this.image = ImageIO.read(new File("C:\\Users\\Skadufex\\Desktop\\tanks\\GreenGrass.jpg"));
+			this.image = ImageIO.read(new File("GreenGrass.jpg"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
