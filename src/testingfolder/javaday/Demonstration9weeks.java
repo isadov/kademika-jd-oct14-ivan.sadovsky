@@ -1,4 +1,4 @@
-package javaday;
+package testingfolder.javaday;
 
 public class Demonstration9weeks {
 
