@@ -118,10 +118,10 @@ public class ActionField extends JPanel {
 
 		int y = bullet.getY() / 64;
 		int x = bullet.getX() / 64;
-		// System.out.print("Y:" + bullet.getY());
-		// System.out.println("X:" + bullet.getX());
-		// System.out.print("y:" + y);
-		// System.out.println("x:" + x);
+//		System.out.print("Y: " + bullet.getY());
+//		System.out.println(" X: " + bullet.getX());
+//		System.out.print("y: " + y);
+//		System.out.println(" x: " + x);
 
 		if ((y >= 0) && (y < 9) && (x >= 0) && (x < 9)) {
 			tmpObject = battleField.getFieldObject(y, x);

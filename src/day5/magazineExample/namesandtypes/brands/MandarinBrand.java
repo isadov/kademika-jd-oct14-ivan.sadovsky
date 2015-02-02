@@ -1,4 +1,4 @@
-package day5.magazineExample.Fruits;
+package day5.magazineExample.namesandtypes.brands;
 
 public enum MandarinBrand {
 

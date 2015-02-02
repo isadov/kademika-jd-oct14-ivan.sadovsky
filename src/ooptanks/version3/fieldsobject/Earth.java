@@ -7,28 +7,19 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
+import ooptanks.version3.serviceclass.LoadingImages;
+
 public class Earth extends BFObject {
 
 	public Earth() {
 		this.color = new Color(102, 255, 102);
-		try {
-			this.image = ImageIO.read(new File("GreenGrass.jpg"));
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		image = LoadingImages.getEarth();
 	}
 
 	public Earth(int x, int y) {
 		this.color = new Color(102, 255, 102);
 		this.x = x;
 		this.y = y;
-		try {
-			this.image = ImageIO.read(new File("GreenGrass.jpg"));
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		image = LoadingImages.getEarth();
 		}
 	}
-
-}

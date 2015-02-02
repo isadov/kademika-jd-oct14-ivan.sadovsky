@@ -7,6 +7,7 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 
 import ooptanks.version3.serviceclass.Destroyable;
+import ooptanks.version3.serviceclass.LoadingImages;
 
 public class Rock extends BFObject implements Destroyable{
 
@@ -14,12 +15,7 @@ public class Rock extends BFObject implements Destroyable{
 	
 	public Rock(){
 		this.color = new Color(128,128,128);
-		try {
-			this.image = ImageIO.read(new File("Stones.jpg"));
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		  }
+		image = LoadingImages.getRock();
 	}
 	
 	@Override

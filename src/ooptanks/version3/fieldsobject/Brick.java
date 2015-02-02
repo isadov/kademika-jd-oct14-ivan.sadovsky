@@ -7,23 +7,21 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 
 import ooptanks.version3.serviceclass.Destroyable;
+import ooptanks.version3.serviceclass.LoadingImages;
 
-public class Brick extends BFObject implements Destroyable{
-	
-	public Brick(){
-		this.color = new Color(230,6,6); 
-		try {
-			this.image = ImageIO.read(new File("Blocks.jpg"));
-		} catch (IOException e) {
-			e.printStackTrace();
-		  }	
-	}
-	
+public class Brick extends BFObject implements Destroyable {
+
+	public Brick() {
+		this.color = new Color(250, 100, 100);
+		
+		image = LoadingImages.getBricks();
+		
+	}	
+
 	@Override
 	public void destroy() throws Exception {
 		// TODO Auto-generated method stub
-		
+
 	}
- 
-	
+
 }

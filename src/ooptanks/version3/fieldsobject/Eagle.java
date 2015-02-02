@@ -7,17 +7,13 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 
 import ooptanks.version3.serviceclass.Destroyable;
+import ooptanks.version3.serviceclass.LoadingImages;
 
 public class Eagle extends BFObject implements Destroyable{
 
 	public Eagle(){
 		this.color = new Color(255,255,255);
-		try {
-			this.image = ImageIO.read(new File("Eagle.jpg"));
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		  }	
+		image = LoadingImages.getEagle();
 	}
 	
 	@Override
