@@ -11,13 +11,15 @@ import day5.magazinefruits.service.Purchase;
 public class Storages {
 
 	private CustomerStorage customerStorage;
-	private PurchaseStorage prchsStrg;
+	private PurchaseStorage purchaseStorage;
 	private FruitsStorage fruitStorage;
+	Fruit fruit;
 
 	public Storages() {
 		fruitStorage = new FruitsStorage();
 		customerStorage = new CustomerStorage();
-		prchsStrg = new PurchaseStorage();
+		purchaseStorage = new PurchaseStorage();
+		fruit = new Fruit();
 	}
 
 	public List<Customer> getCustomers() {
@@ -39,7 +41,7 @@ public class Storages {
 
 	public void insertPurchase(Purchase prchs) {
 
-		prchsStrg.add(prchs);
+		purchaseStorage.add(prchs);
 	}
 
 	public List<Customer> getAllCustomers() {
@@ -97,7 +99,8 @@ public class Storages {
 		public Fruit getFruit(Denomination name) {
 
 			if (getFruitBalance(name) <= 0) {
-				System.out.println("This type of fruit is absent on on our storage.");
+				System.out
+						.println("This type of fruit is absent on on our storage.");
 				fruit = null;
 			} else
 
@@ -123,6 +126,6 @@ public class Storages {
 
 			return balance;
 		}
-	}
 
+	}
 }

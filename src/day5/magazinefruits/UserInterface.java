@@ -50,6 +50,9 @@ public class UserInterface {
 				GridBagConstraints.LINE_START, 0, new Insets(0, 0, 0, 0), 0, 0));
 		panel.add(patternList, new GridBagConstraints(1, 1, 1, 1, 0, 0,
 				GridBagConstraints.CENTER, 0, new Insets(0, 3, 0, 0), 0, 0));
+		
+		JLabel price = new JLabel("Price: ");
+		
 
 		JLabel lQuantity = new JLabel("Enter Quantity: ");
 		NumberFormat nf = NumberFormat.getNumberInstance();

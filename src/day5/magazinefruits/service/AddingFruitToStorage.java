@@ -10,11 +10,14 @@ public class AddingFruitToStorage {
     	
         this.shop = shop;
         
+        Fruit fruit = new Fruit();
+        
         shop.insertFruit(new Fruit(Denomination.APPLE, 5));
         shop.insertFruit(new Fruit(Denomination.APPLE, 5));
         shop.insertFruit(new Fruit(Denomination.APPLE, 5));
         shop.insertFruit(new Fruit(Denomination.APPLE, 5));
         shop.insertFruit(new Fruit(Denomination.APPLE, 5));
+        
         
         shop.insertFruit(new Fruit(Denomination.MANDARIN, 6));
         shop.insertFruit(new Fruit(Denomination.MANDARIN, 6));
@@ -22,11 +25,20 @@ public class AddingFruitToStorage {
         shop.insertFruit(new Fruit(Denomination.MANDARIN, 6));
         shop.insertFruit(new Fruit(Denomination.MANDARIN, 6));
         
-        shop.insertFruit(new Fruit(Denomination.ORANGE, 4));
-        shop.insertFruit(new Fruit(Denomination.ORANGE, 4));
-        shop.insertFruit(new Fruit(Denomination.ORANGE, 4));
-        shop.insertFruit(new Fruit(Denomination.ORANGE, 4));
-        shop.insertFruit(new Fruit(Denomination.ORANGE, 4));
+        
+        shop.insertFruit(new Fruit(Denomination.ORANGE, 7));
+        shop.insertFruit(new Fruit(Denomination.ORANGE, 7));
+        shop.insertFruit(new Fruit(Denomination.ORANGE, 7));
+        shop.insertFruit(new Fruit(Denomination.ORANGE, 7));
+        shop.insertFruit(new Fruit(Denomination.ORANGE, 7));
+        
+        
+        shop.insertFruit(new Fruit(Denomination.PEAR, 3));
+        shop.insertFruit(new Fruit(Denomination.PEAR, 3));
+        shop.insertFruit(new Fruit(Denomination.PEAR, 3));
+        shop.insertFruit(new Fruit(Denomination.PEAR, 3));
+        shop.insertFruit(new Fruit(Denomination.PEAR, 3));
 
+        
     }
 }
