@@ -44,7 +44,7 @@ public class ActionField extends JPanel {
 	public ActionField() throws Exception {
 
 		battleField = new BattleField();
-
+ 
 		brick = new Brick();
 		water = new Water();
 		eagle = new Eagle();
