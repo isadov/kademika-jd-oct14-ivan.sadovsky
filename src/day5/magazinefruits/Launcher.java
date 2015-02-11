@@ -17,9 +17,6 @@ public class Launcher {
         
         UserInterface shopUI = new UserInterface(shop);
         
-        
-
     }
-
 
 }

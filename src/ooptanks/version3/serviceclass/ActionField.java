@@ -3,6 +3,7 @@ package ooptanks.version3.serviceclass;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
+import java.awt.Toolkit;
 import java.util.HashMap;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
@@ -61,14 +62,16 @@ public class ActionField extends JPanel {
 		tanksOnField = new AbstractTank[TANKS_IN_BATTLE];
 		tanksOnField[0] = defender;
 		tanksOnField[1] = aggressor;
-
+		
 		JFrame frame = new JFrame("BATTLE FIELD, OOP");
-		frame.setLocation(750, 150);
+
 		frame.setMinimumSize(new Dimension(battleField.BF_WIDTH,
 				battleField.BF_HEIGHT + 22));
+		frame.setResizable(false); // can't change the size of window if false
 		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		frame.getContentPane().add(this);
 		frame.pack();
+		frame.setLocationRelativeTo(null); // using always after pack !! CenterScreen
 		frame.setVisible(true);
 	}
 
