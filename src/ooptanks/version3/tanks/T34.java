@@ -39,28 +39,28 @@ public class T34 extends AbstractTank {
 
 		try {
 			this.imagesOfTank.put(Direction.UP, ImageIO.read(new File(
-					"TankDeffTop.png")));
+					"tanks_image/TankDeffTop.png")));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		try {
 			this.imagesOfTank.put(Direction.RIGHT, ImageIO.read(new File(
-					"TankDeffRight.png")));
+					"tanks_image/TankDeffRight.png")));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		try {
 			this.imagesOfTank.put(Direction.DOWN, ImageIO.read(new File(
-					"TankDeffDown.png")));
+					"tanks_image/TankDeffDown.png")));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		try {
 			this.imagesOfTank.put(Direction.LEFT, ImageIO.read(new File(
-					"TankDeffLeft.png")));
+					"tanks_image/TankDeffLeft.png")));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

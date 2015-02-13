@@ -15,31 +15,31 @@ public class LoadingImages {
 
 	public LoadingImages() {
 		try {
-			bricks = ImageIO.read(new File("Blocks.jpg").getAbsoluteFile());
+			bricks = ImageIO.read(new File("tanks_image/Blocks.jpg").getAbsoluteFile());
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 		
 		try {
-			eagle = ImageIO.read(new File("Eagle.jpg").getAbsoluteFile());
+			eagle = ImageIO.read(new File("tanks_image/GoldenStar.png").getAbsoluteFile());
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 		
 		try {
-			earth = ImageIO.read(new File("GreenGrass.jpg").getAbsoluteFile());
+			earth = ImageIO.read(new File("tanks_image/GreenGrass.png").getAbsoluteFile());
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 		
 		try {
-			rock = ImageIO.read(new File("Stones.jpg").getAbsoluteFile());
+			rock = ImageIO.read(new File("tanks_image/Stones.jpg").getAbsoluteFile());
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 		
 		try {
-			water = ImageIO.read(new File("Water.png").getAbsoluteFile());
+			water = ImageIO.read(new File("tanks_image/Water.png").getAbsoluteFile());
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
